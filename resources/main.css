@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@keyframes signup_text {
+  14% {
+    font-family: "Open Sans",Helvetica,Aril,sans-serif;
+    content: "Veldur vörur"; }
+  28% {
+    font-family: "Open Sans",Helvetica,Aril,sans-serif;
+    content: "Ýttu á 'Add To Cart'"; }
+  44% {
+    font-family: "Open Sans",Helvetica,Aril,sans-serif;
+    content: "Semltu svo á korfun"; }
+  58% {
+    font-family: "Open Sans",Helvetica,Aril,sans-serif;
+    content: "Hún er í hægra horninu"; }
+  74% {
+    font-family: "Open Sans",Helvetica,Aril,sans-serif;
+    content: "Kláraðu pöntununina"; } }
+body {
+  margin: 0em; }
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  font-family: 'Yatra One', cursive; }
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px; }
+    .header a:hover {
+      background-color: #ddd;
+      color: black; }
+    .header a:active {
+      background-color: dodgerblue;
+      color: white; }
+
+.header-right {
+  float: right; }
+
+.wrapper-shop {
+  max-width: 60em;
+  margin: auto; }
+  .wrapper-shop section {
+    background-color: #f1f1f1;
+    margin-top: 5em;
+    padding: 1em; }
+    .wrapper-shop section .head {
+      margin: 2em 2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      color: black; }
+      .wrapper-shop section .head:after {
+        animation: signup_text 10s linear infinite;
+        display: block;
+        content: "Online Store";
+        font-size: 25px; }
+    .wrapper-shop section .box {
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+      .wrapper-shop section .box .row {
+        margin: auto; }
+        .wrapper-shop section .box .row .size {
+          width: 300px; }
+        .wrapper-shop section .box .row .product {
+          border-radius: 4px 4px 4px 4px;
+          background-color: #fff;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+          margin-bottom: 20px; }
+          .wrapper-shop section .box .row .product .title {
+            border-bottom: 1px solid #E3E3E3;
+            height: 31px;
+            padding: 13px 10px; }
+            .wrapper-shop section .box .row .product .title h3 {
+              font-size: 18px;
+              font-weight: 400;
+              height: 34px;
+              line-height: 15px;
+              overflow: hidden;
+              text-align: center; }
+          .wrapper-shop section .box .row .product .img {
+            border-bottom: 1px solid #E3E3E3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1em; }
+            .wrapper-shop section .box .row .product .img img {
+              position: relative;
+              width: 100%; }
+          .wrapper-shop section .box .row .product .option {
+            background: #eee;
+            border-radius: 0 0 4px 4px;
+            height: 55px;
+            list-style-type: none;
+            margin: 0;
+            padding-left: 0em; }
+            .wrapper-shop section .box .row .product .option li {
+              border-right: 1px solid #D4D4D4;
+              float: left;
+              font-size: 16px;
+              line-height: 55px;
+              text-align: center;
+              width: 50%;
+              box-sizing: border-box; }
+            .wrapper-shop section .box .row .product .option .price {
+              border-right: 1px solid #D4D4D4;
+              float: left;
+              font-size: 24px;
+              line-height: 55px;
+              text-align: center; }
+              .wrapper-shop section .box .row .product .option .price a {
+                text-decoration: none; }
+            .wrapper-shop section .box .row .product .option .buy .box1 {
+              background-color: #e74c3c !important;
+              border-color: #c0392b;
+              color: #fff !important;
+              text-shadow: 0 -1px 0 rgba(0, 0, 0, 0);
+              display: inline-block;
+              padding: 4px 12px;
+              margin-bottom: 0;
+              font-size: 14px;
+              line-height: 20px;
+              color: #333333;
+              text-align: center;
+              border-radius: 4px;
+              box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); }
+              .wrapper-shop section .box .row .product .option .buy .box1:hover {
+                background-color: #3e8e41; }
+              .wrapper-shop section .box .row .product .option .buy .box1:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(2px); }
+            .wrapper-shop section .box .row .product .option .buy a {
+              text-decoration: none; }
+
+.wrapper-sida2 {
+  max-width: 60em;
+  margin: auto; }
+  .wrapper-sida2 h3 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Yatra One', cursive; }
+  .wrapper-sida2 table {
+    border-collapse: collapse;
+    width: 100%; }
+  .wrapper-sida2 th, .wrapper-sida2 td {
+    padding: 0.25rem;
+    text-align: left; }
+  .wrapper-sida2 tbody tr:nth-child(odd) {
+    background: #eee; }
+
+.wrapper-signup {
+  margin: auto;
+  max-width: 60em; }
+  .wrapper-signup section {
+    background-color: #fefefe;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 30em;
+    height: 30em;
+    border-radius: 10px; }
+    .wrapper-signup section article {
+      margin: 2em; }
+      .wrapper-signup section article img {
+        width: 100%;
+        margin-bottom: 0em; }
+      .wrapper-signup section article h1 {
+        margin-top: 0em;
+        color: black;
+        font-size: 33px; }
+      .wrapper-signup section article .error {
+        text-align: center;
+        margin: 0; }
+      .wrapper-signup section article form input[type=text], .wrapper-signup section article form input[type=email], .wrapper-signup section article form input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; }
+      .wrapper-signup section article form input[type=submit] {
+        width: 100%;
+        background-color: #19242a;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer; }
+      .wrapper-signup section article form input[type=submit]:hover {
+        background-color: #45a049; }
+
+/*# sourceMappingURL=main.css.map */

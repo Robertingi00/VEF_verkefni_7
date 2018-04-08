@@ -1,0 +1,26 @@
+<svg width="580" height="200" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g stroke="null">
+  <title stroke="null">background</title>
+  <rect stroke="null" fill="none" id="canvas_background" height="202" width="582" y="-1" x="-1"/>
+  <g stroke="null" style="vector-effect: non-scaling-stroke;" display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <g stroke="null" id="svg_9">
+   <path stroke="null" id="svg_4" d="m26.285764,137.484783c6.643556,0 12.030223,5.384889 12.030223,12.032001c0,6.641778 -5.386667,12.02489 -12.030223,12.02489c-6.645334,0 -12.030223,-5.381334 -12.030223,-12.02489c0,-6.647112 5.384889,-12.032001 12.030223,-12.032001"/>
+   <path stroke="null" id="svg_5" d="m124.072436,134.483894c7.473778,0 13.52889,6.058667 13.52889,13.527112c0,7.472 -6.055111,13.530667 -13.52889,13.530667c-7.468445,0 -13.525334,-6.058667 -13.525334,-13.530667c0,-7.468445 6.056889,-13.527112 13.525334,-13.527112"/>
+   <polygon stroke="null" id="svg_6" points="185.26174926757812,8.800331115722656 151.51422119140625,8.850112915039062 151.39688110351562,8.800331115722656 151.38623046875,8.850112915039062 151.2724609375,8.850112915039062 151.2724609375,9.095443725585938 120.96487426757812,87.644775390625 27.066207885742188,87.644775390625 20.724868774414062,33.202110290527344 7.4999847412109375,33.202110290527344 15.329315185546875,100.81455993652344 115.8822021484375,100.81455993652344 109.45553588867188,117.47412109375 18.756866455078125,123.1239013671875 16.115097045898438,132.8109893798828 122.2039794921875,130.92478942871094 123.24398803710938,126.89102172851562 162.13287353515625,25.1558837890625 185.27777099609375,25.123886108398438 "/>
+   <text stroke="null" transform="matrix(1.777777883741592,0,0,1.777777883741592,0,86.28299713134766) " id="svg_7" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-weight="bold" font-size="5px" fill="#000000" y="64.375003" x="4.218741">Created by Fernando Vasconcelos</text>
+   <text stroke="null" transform="matrix(1.777777883741592,0,0,1.777777883741592,0,86.28299713134766) " id="svg_8" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif" font-weight="bold" font-size="5px" fill="#000000" y="69.375003" x="4.218741">from the Noun Project</text>
+  </g>
+  <rect stroke="#000" id="svg_10" height="66.000002" width="610.000008" y="174" x="-3.5" stroke-width="1.5" fill="#fff"/>
+  <text stroke="#000" transform="matrix(4.25580575557038,0,0,3.479002195815113,-1127.3253569118028,-562.4717573273475) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_12" y="208.754986" x="303.672286" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Online</text>
+  <path id="svg_13" d="m472.5,173" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000"/>
+  <path id="svg_14" d="m432.5,194" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000"/>
+  <text stroke="#000" transform="matrix(3.5766183749424836,0,0,2.9504775021099423,-914.6393573918128,-390.3913686568752) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_15" y="159.7224" x="304.521081" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Shop</text>
+ </g>
+</svg>
