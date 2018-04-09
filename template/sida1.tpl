@@ -22,6 +22,7 @@
             % end
         </div>
 	</section>
+  </div>
 
 
 

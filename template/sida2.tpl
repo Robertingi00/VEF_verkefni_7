@@ -40,3 +40,4 @@
   <h3><a href="/shop">Ýttu hérna ef þú villt fara til baka og velja vörur</a></h3>
 	
 </div>
+<footer><h6>verkefni 6 - Vefforritun - Róbert Ingi Hálfdanarson</h6></footer>

@@ -14,7 +14,7 @@ def staff():
     qty = len(karfa)
     return template('template/index', qty=qty)
 
-@route('/staff/login', method='post')
+@route('/login', method='post')
 def login():
     username = request.forms.get('username')
     password = request.forms.get('password')
@@ -22,21 +22,21 @@ def login():
 
     if username == adminuser and password == adminpwd:
         response.set_cookie('account', username, secret='my_secret_code')
-        return redirect('/staff/login/restricted')
+        return redirect('/restricted')
     else:
         return "Login failed. <br> <a href='/'>Login</a>"
 
-@route('/staff/login/restricted')
+@route('/restricted')
 def restricted():
     user = request.get_cookie('account', secret='my_secret_code')
     print(user)
     if (user):
-        return "restricted area. <br> <a href='/staff/login/signout'>log off</a>"
+        return "restricted area. <br> <a href='/signout'>log off</a>"
     else:
         return "You are not logged in. Access denied."
 
-@route('/staff/login/signout')
-def signout():
+@route('/signout')
+def signouf():
     response.set_cookie('account', "", expires=0)
     user = request.get_cookie('account', secret='my_secret_code')
     print(user)
@@ -128,12 +128,6 @@ def remove_cart():
     session = request.environ.get('beaker.session')
     session.delete()
     return redirect('/shop')
-
-
-
-
-
-
 
 session_options = {
     'session.type': 'file',
