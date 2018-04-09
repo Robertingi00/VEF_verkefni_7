@@ -24,7 +24,7 @@ def login():
         response.set_cookie('account', username, secret='my_secret_code')
         return redirect('/restricted')
     else:
-        return "Login failed. <br> <a href='/'>Login</a>"
+        return "Login failed. User=admin passwd=12345 <br> <a href='/'>Login</a>"
 
 @route('/restricted')
 def restricted():
@@ -128,6 +128,10 @@ def remove_cart():
     session = request.environ.get('beaker.session')
     session.delete()
     return redirect('/shop')
+
+@error(404)
+def error404(error):
+    return 'Villa kom upp.ERROR'
 
 session_options = {
     'session.type': 'file',
