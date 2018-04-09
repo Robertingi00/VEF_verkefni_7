@@ -5,7 +5,7 @@ adminpwd = '12345'
 
 @route('/')
 def index():
-    return redirect('shop')
+    return redirect('/shop')
 
 
 @route('/staff')
