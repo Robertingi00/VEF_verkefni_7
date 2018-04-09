@@ -150,6 +150,5 @@ products = [
     {"pid":"0712", "name": "Samsung Note 8", "price": 139985},
     {"pid":"0813", "name": "Xperia XZ2", "price": 69999},
 ]
-
-run(host="0.0.0.0", port=os.environ.get('PORT'))
+run(host="0.0.0.0", port=os.environ.get('PORT'), app=my_session)
 
