@@ -151,6 +151,5 @@ products = [
     {"pid":"0813", "name": "Xperia XZ2", "price": 69999},
 ]
 
+run(host="0.0.0.0", port=os.environ.get('PORT'))
 
-
-run(app=my_session, host='localhost', port='8080', debug='True', reloader='True')
